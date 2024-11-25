@@ -1,0 +1,19 @@
+
+<div *ngIf="reactions && reactions.length > 0 else noReactions">
+    <div *ngFor="let r of reactions">
+        <p>{{r.user.userName}} 
+            <span *ngIf="r.isLike"> <mat-icon style="color:aqua">thumb_up_alt</mat-icon></span>
+            <span *ngIf="!r.isLike"> <mat-icon style="color:coral">thumb_down_alt</mat-icon> </span>
+            {{r.createdOrUpdatedAt | timeAgo}}
+        </p>
+    </div>
+</div>
+
+<ng-template #noReactions>
+    <h3>
+        No reactions :(
+    </h3> 
+    <p>
+        Go outside and find some friends so they can react to your shity posts :D
+    </p>
+</ng-template>

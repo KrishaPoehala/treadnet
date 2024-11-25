@@ -1,0 +1,87 @@
+<mat-card [ngClass]="{'post-with-comments': showComments}">
+  <mat-card-header>
+
+      <img mat-card-avatar src="{{post.author.avatar}}" alt="Avatar">
+      <mat-card-title>{{post.author.userName}}</mat-card-title>
+      <div class="date">{{post.createdAt | date:'d/M/yy, h:mm a'}}</div>
+      <button class="test" mat-icon-button *ngIf="isEditingMode" (click)="editPost()">
+        <mat-icon class="large-icon">check_circle</mat-icon>
+      </button> 
+      <button *ngIf="currentUser?.id === post.author.id" mat-button mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      <mat-menu #menu="matMenu" >
+        <button mat-menu-item (click)="onReactionsInfoDialogOpen()" >See likes/dislikes</button>
+      </mat-menu>
+      
+  </mat-card-header>
+  <mat-card-content>
+    <label class="post">
+        <img mat-card-image *ngIf="post.previewImage && !isEditingMode" at-card-image
+         [src]="post.previewImage" alt="Photo">
+        <img class="edit-mode-photo" mat-card-image *ngIf="selectedPhoto && isEditingMode" at-card-image
+         [src]="selectedPhoto" alt="Photo">
+
+        <div class="edit-overlay"
+         [style.position]="(post.previewImage || selectedFile) ? 'absolute':'static'" 
+         *ngIf="isEditingMode">
+          <mat-icon>cloud_upload</mat-icon>
+          <p>Upload New Photo</p>
+          <input type="file" (change)="onFileSelected($event)">
+        </div>
+        <button *ngIf="isEditingMode && selectedPhoto" mat-icon-button class="remove-image-container" (click)="cancelPostPhoto()">
+          <mat-icon [style.font-size]="'30px'">cancel</mat-icon>
+        </button>
+      </label>  
+  
+    <p *ngIf="!isEditingMode">{{post.body}}</p>
+    <div></div>
+    <input class="input-field" type="text" [value]="post.body" *ngIf="isEditingMode" [(ngModel)]="post.body"/>
+  </mat-card-content>
+ 
+  <mat-card-actions class="actions-buttons" align="end">
+    <div *ngIf="post.author.id === currentUser?.id">
+     
+      <button mat-icon-button (click)="deletePost()">
+        <mat-icon>delete</mat-icon>
+      </button>
+      <button mat-icon-button (click)="editPostToggle()">
+        <mat-icon>edit</mat-icon>
+      </button>
+    </div>
+      <button [disabled]="!currentUser" mat-icon-button color="primary" (click)="addReaction(true)">
+        <mat-icon
+          matBadge="{{positiveReactions.length}}" matBadgeColor="accent" matBadgeSize="medium"
+          [matBadgeHidden]="positiveReactions.length === 0" aria-label="Like">thumb_up</mat-icon>
+      </button>
+      <button [disabled]="!currentUser" mat-icon-button color="primary" (click)="addReaction(false)">
+        <mat-icon
+          matBadge="{{negativeReactions.length}}" matBadgeColor="accent" matBadgeSize="medium"
+          [matBadgeHidden]="negativeReactions.length === 0" aria-label="Like">thumb_down</mat-icon>
+      </button>
+      <button mat-icon-button color="accent">
+        <mat-icon aria-label="Share">share</mat-icon>
+      </button>
+      <button mat-icon-button color="basic" (click)=" toggleComments()">
+        <mat-icon matBadge="{{post.comments.length}}" matBadgeColor="warn" matBadgeSize="medium"
+          [matBadgeHidden]="post.comments.length === 0" aria-label="Add comment">comment</mat-icon>
+      </button>
+   
+  </mat-card-actions>
+  <div *ngIf="showComments">
+    <mat-divider></mat-divider>
+    <div class="new-comment">
+      <mat-form-field>
+        <textarea [(ngModel)]="newComment.body" matInput placeholder="Comment it..."></textarea>
+      </mat-form-field>
+      <button mat-icon-button color="primary" matTooltip="Send" (click)="sendComment()">
+        <mat-icon aria-label="Send">send</mat-icon>
+      </button>
+    </div>
+    <div *ngIf="post.comments.length > 0" class="comments-count">
+      Just {{post.comments.length}} in all
+    </div>
+    <app-comment *ngFor="let _comment of post.comments" [comment]="_comment"
+    [currentUser]="currentUser" (deleteCommentEmmiter)="deleteComment($event)"></app-comment>
+  </div>
+</mat-card>

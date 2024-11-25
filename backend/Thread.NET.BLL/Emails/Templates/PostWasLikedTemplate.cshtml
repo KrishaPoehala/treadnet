@@ -1,0 +1,14 @@
+﻿﻿@{
+    Layout = null;
+}
+
+@using Thread.NET.BLL.Emails.Models
+@model PostWasLikedModel
+<div>Hi!Your post with the following content:
+    <hr />
+    <div>@Model.Post.Body</div>
+    <img style="max-width:50%; height:auto" src="@Model.Post.PreviewImage" />
+    <hr />  
+    was liked at: @Model.LikedAt 
+    by user @Model.LikedBy.UserName
+</div>

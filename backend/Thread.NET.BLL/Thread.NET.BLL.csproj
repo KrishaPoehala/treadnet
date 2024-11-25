@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Thread.NET.BLL</RootNamespace>
+    <LangVersion>latest</LangVersion>
+	<Nullable>enable</Nullable>
+	<PreserveCompilationContext>true</PreserveCompilationContext>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Emails\Templates\PostWasLikedTemplate.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="11.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.18.0" />
+    <PackageReference Include="RazorLight" Version="2.3.1" />
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.18.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Thread.NET.Common\Thread.NET.Common.csproj" />
+    <ProjectReference Include="..\Thread.NET.DAL\Thread.NET.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,297 @@
+Date : 2024-11-22 16:51:22
+Directory : d:\диплом\treadnetattemp2
+Total : 182 files,  31972 codes, 157 comments, 1390 blanks, all 33519 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |         10 |     20,535 |          0 |          8 |     20,543 |
+| C#                 |         95 |      9,214 |        122 |        947 |     10,283 |
+| TypeScript         |         51 |      1,533 |         35 |        295 |      1,863 |
+| HTML               |         10 |        291 |          0 |         26 |        317 |
+| Markdown           |          2 |        107 |          0 |         50 |        157 |
+| XML                |          4 |         92 |          0 |         24 |        116 |
+| YAML               |          2 |         50 |          0 |          4 |         54 |
+| Properties         |          1 |         30 |          0 |          9 |         39 |
+| JSON with Comments |          1 |         29 |          0 |          1 |         30 |
+| CSS                |          2 |         28 |          0 |          2 |         30 |
+| Docker             |          1 |         21 |          0 |          5 |         26 |
+| Batch              |          1 |         20 |          0 |         12 |         32 |
+| ASP.NET Razor      |          1 |         13 |          0 |          1 |         14 |
+| Shell Script       |          1 |          9 |          0 |          6 |         15 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                 | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                    |        182 |     31,972 |        157 |      1,390 |     33,519 |
+| . (Files)                                                                                                            |          3 |        143 |          0 |         40 |        183 |
+| backend                                                                                                              |        106 |      9,420 |        122 |        996 |     10,538 |
+| backend (Files)                                                                                                      |          1 |         21 |          0 |          5 |         26 |
+| backend\Thread.NET.BLL                                                                                               |         32 |        941 |         10 |        189 |      1,140 |
+| backend\Thread.NET.BLL (Files)                                                                                       |          2 |         29 |          2 |         10 |         41 |
+| backend\Thread.NET.BLL\Emails                                                                                        |          9 |        151 |          2 |         28 |        181 |
+| backend\Thread.NET.BLL\Emails (Files)                                                                                |          4 |         79 |          2 |         15 |         96 |
+| backend\Thread.NET.BLL\Emails\Helper                                                                                 |          3 |         54 |          0 |         10 |         64 |
+| backend\Thread.NET.BLL\Emails\Models                                                                                 |          1 |          5 |          0 |          2 |          7 |
+| backend\Thread.NET.BLL\Emails\Templates                                                                              |          1 |         13 |          0 |          1 |         14 |
+| backend\Thread.NET.BLL\Exceptions                                                                                    |          5 |         44 |          0 |         12 |         56 |
+| backend\Thread.NET.BLL\Hubs                                                                                          |          2 |         23 |          0 |          5 |         28 |
+| backend\Thread.NET.BLL\JWT                                                                                           |          1 |        118 |          4 |         23 |        145 |
+| backend\Thread.NET.BLL\MappingProfiles                                                                               |          4 |         67 |          0 |         11 |         78 |
+| backend\Thread.NET.BLL\Services                                                                                      |          9 |        509 |          2 |        100 |        611 |
+| backend\Thread.NET.BLL\Services (Files)                                                                              |          7 |        488 |          2 |         94 |        584 |
+| backend\Thread.NET.BLL\Services\Abstract                                                                             |          2 |         21 |          0 |          6 |         27 |
+| backend\Thread.NET.Common                                                                                            |         27 |        302 |         37 |         67 |        406 |
+| backend\Thread.NET.Common (Files)                                                                                    |          1 |         11 |          0 |          4 |         15 |
+| backend\Thread.NET.Common\Auth                                                                                       |          2 |         31 |         27 |         12 |         70 |
+| backend\Thread.NET.Common\DTO                                                                                        |         20 |        186 |          0 |         37 |        223 |
+| backend\Thread.NET.Common\DTO\Auth                                                                                   |          3 |         37 |          0 |          8 |         45 |
+| backend\Thread.NET.Common\DTO\Comment                                                                                |          3 |         30 |          0 |          5 |         35 |
+| backend\Thread.NET.Common\DTO\Email                                                                                  |          2 |          9 |          0 |          3 |         12 |
+| backend\Thread.NET.Common\DTO\Like                                                                                   |          2 |         20 |          0 |          3 |         23 |
+| backend\Thread.NET.Common\DTO\Post                                                                                   |          4 |         42 |          0 |         10 |         52 |
+| backend\Thread.NET.Common\DTO\User                                                                                   |          6 |         48 |          0 |          8 |         56 |
+| backend\Thread.NET.Common\Logic                                                                                      |          2 |         15 |          7 |          3 |         25 |
+| backend\Thread.NET.Common\Logic\Abstractions                                                                         |          2 |         15 |          7 |          3 |         25 |
+| backend\Thread.NET.Common\Security                                                                                   |          2 |         59 |          3 |         11 |         73 |
+| backend\Thread.NET.Common\Security (Files)                                                                           |          1 |         42 |          3 |          7 |         52 |
+| backend\Thread.NET.Common\Security\SecurityProvider                                                                  |          1 |         17 |          0 |          4 |         21 |
+| backend\Thread.NET.DAL                                                                                               |         19 |      7,278 |          7 |        587 |      7,872 |
+| backend\Thread.NET.DAL (Files)                                                                                       |          1 |         24 |          0 |          7 |         31 |
+| backend\Thread.NET.DAL\Context                                                                                       |          2 |        197 |          3 |         49 |        249 |
+| backend\Thread.NET.DAL\Entities                                                                                      |          9 |        125 |          0 |         33 |        158 |
+| backend\Thread.NET.DAL\Entities (Files)                                                                              |          7 |         96 |          0 |         27 |        123 |
+| backend\Thread.NET.DAL\Entities\Abstract                                                                             |          2 |         29 |          0 |          6 |         35 |
+| backend\Thread.NET.DAL\Migrations                                                                                    |          7 |      6,932 |          4 |        498 |      7,434 |
+| backend\Thread.NET.WebAPI                                                                                            |         27 |        878 |         68 |        148 |      1,094 |
+| backend\Thread.NET.WebAPI (Files)                                                                                    |          7 |        191 |          3 |         46 |        240 |
+| backend\Thread.NET.WebAPI\Controllers                                                                                |          7 |        283 |         61 |         38 |        382 |
+| backend\Thread.NET.WebAPI\Enums                                                                                      |          1 |         11 |          0 |          1 |         12 |
+| backend\Thread.NET.WebAPI\Extensions                                                                                 |          3 |        215 |          4 |         33 |        252 |
+| backend\Thread.NET.WebAPI\Filters                                                                                    |          1 |         22 |          0 |          2 |         24 |
+| backend\Thread.NET.WebAPI\Logic                                                                                      |          1 |         22 |          0 |          6 |         28 |
+| backend\Thread.NET.WebAPI\Middlewares                                                                                |          1 |         24 |          0 |          6 |         30 |
+| backend\Thread.NET.WebAPI\Properties                                                                                 |          1 |         22 |          0 |          0 |         22 |
+| backend\Thread.NET.WebAPI\Validators                                                                                 |          5 |         88 |          0 |         16 |        104 |
+| frontend                                                                                                             |         73 |     22,409 |         35 |        354 |     22,798 |
+| frontend (Files)                                                                                                     |          7 |     20,450 |          0 |         27 |     20,477 |
+| frontend\src                                                                                                         |         66 |      1,959 |         35 |        327 |      2,321 |
+| frontend\src (Files)                                                                                                 |          6 |        132 |         24 |         24 |        180 |
+| frontend\src\app                                                                                                     |         58 |      1,817 |          1 |        299 |      2,117 |
+| frontend\src\app (Files)                                                                                             |          4 |         73 |          0 |          6 |         79 |
+| frontend\src\app\components                                                                                          |         19 |      1,150 |          0 |        149 |      1,299 |
+| frontend\src\app\components\auth-dialog                                                                              |          2 |        105 |          0 |         17 |        122 |
+| frontend\src\app\components\comment                                                                                  |          2 |        111 |          0 |         13 |        124 |
+| frontend\src\app\components\common                                                                                   |          1 |        101 |          0 |          3 |        104 |
+| frontend\src\app\components\home                                                                                     |          2 |         80 |          0 |         13 |         93 |
+| frontend\src\app\components\main-thread                                                                              |          2 |        268 |          0 |         37 |        305 |
+| frontend\src\app\components\post                                                                                     |          2 |        264 |          0 |         36 |        300 |
+| frontend\src\app\components\reactions-info                                                                           |          3 |         34 |          0 |          6 |         40 |
+| frontend\src\app\components\reset-password                                                                           |          3 |         87 |          0 |          8 |         95 |
+| frontend\src\app\components\user-profile                                                                             |          2 |        100 |          0 |         16 |        116 |
+| frontend\src\app\guards                                                                                              |          1 |         20 |          0 |          7 |         27 |
+| frontend\src\app\helpers                                                                                             |          2 |         60 |          0 |         10 |         70 |
+| frontend\src\app\models                                                                                              |         20 |        114 |          0 |         26 |        140 |
+| frontend\src\app\models (Files)                                                                                      |          3 |         16 |          0 |          3 |         19 |
+| frontend\src\app\models\auth                                                                                         |          5 |         26 |          0 |          7 |         33 |
+| frontend\src\app\models\comment                                                                                      |          3 |         18 |          0 |          4 |         22 |
+| frontend\src\app\models\common                                                                                       |          2 |         12 |          0 |          2 |         14 |
+| frontend\src\app\models\post                                                                                         |          3 |         22 |          0 |          4 |         26 |
+| frontend\src\app\models\reactions                                                                                    |          2 |         11 |          0 |          3 |         14 |
+| frontend\src\app\models\token                                                                                        |          2 |          9 |          0 |          3 |         12 |
+| frontend\src\app\pipes                                                                                               |          1 |         33 |          0 |         10 |         43 |
+| frontend\src\app\services                                                                                            |         11 |        367 |          1 |         91 |        459 |
+| frontend\src\environments                                                                                            |          2 |         10 |         10 |          4 |         24 |
++----------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                             | language           | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| d:\диплом\treadnetattemp2\README.md                                                                                  | Markdown           |         93 |          0 |         36 |        129 |
+| d:\диплом\treadnetattemp2\backend\Dockerfile                                                                         | Docker             |         21 |          0 |          5 |         26 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\AssemblyReference.cs                                                | C#                 |          4 |          2 |          3 |          9 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\EmailSender.cs                                               | C#                 |         40 |          0 |          6 |         46 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\EmailTemplatesSender.cs                                      | C#                 |         23 |          2 |          3 |         28 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\Helper\EmbeddedResourceHelper.cs                             | C#                 |         14 |          0 |          3 |         17 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\Helper\InMemoryRazorLightProject.cs                          | C#                 |         15 |          0 |          3 |         18 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\Helper\RazorParser.cs                                        | C#                 |         25 |          0 |          4 |         29 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\IEmailSender.cs                                              | C#                 |          8 |          0 |          3 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\IEmailTemplatesSender.cs                                     | C#                 |          8 |          0 |          3 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\Models\PostWasLikedModel.cs                                  | C#                 |          5 |          0 |          2 |          7 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Emails\Templates\PostWasLikedTemplate.cshtml                        | ASP.NET Razor      |         13 |          0 |          1 |         14 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Exceptions\ExpiredRefreshTokenException.cs                          | C#                 |          8 |          0 |          2 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Exceptions\FailedSendingException.cs                                | C#                 |          8 |          0 |          3 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Exceptions\InvalidTokenException.cs                                 | C#                 |          8 |          0 |          2 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Exceptions\InvalidUsernameOrPasswordException.cs                    | C#                 |          8 |          0 |          2 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Exceptions\NotFoundException.cs                                     | C#                 |         12 |          0 |          3 |         15 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Hubs\IHubClient.cs                                                  | C#                 |         10 |          0 |          3 |         13 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Hubs\PostHub.cs                                                     | C#                 |         13 |          0 |          2 |         15 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\JWT\JwtFactory.cs                                                   | C#                 |        118 |          4 |         23 |        145 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\MappingProfiles\CommentProfile.cs                                   | C#                 |         14 |          0 |          3 |         17 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\MappingProfiles\PostProfile.cs                                      | C#                 |         16 |          0 |          3 |         19 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\MappingProfiles\ReactionProfile.cs                                  | C#                 |         21 |          0 |          2 |         23 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\MappingProfiles\UserProfile.cs                                      | C#                 |         16 |          0 |          3 |         19 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\Abstract\BaseService.cs                                    | C#                 |         15 |          0 |          3 |         18 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\Abstract\IDateTimeProvider.cs                              | C#                 |          6 |          0 |          3 |          9 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\AccountsService.cs                                         | C#                 |         63 |          0 |          9 |         72 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\AuthService.cs                                             | C#                 |        100 |          0 |         26 |        126 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\CommentService.cs                                          | C#                 |         51 |          0 |         12 |         63 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\DateTimeProvider.cs                                        | C#                 |          7 |          0 |          3 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\LikeService.cs                                             | C#                 |         81 |          2 |         11 |         94 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\PostService.cs                                             | C#                 |         90 |          0 |         14 |        104 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Services\UserService.cs                                             | C#                 |         96 |          0 |         19 |        115 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.BLL\Thread.NET.BLL.csproj                                               | XML                |         25 |          0 |          7 |         32 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\Auth\AccessToken.cs                                              | C#                 |         13 |          0 |          2 |         15 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\Auth\JwtIssuerOptions.cs                                         | C#                 |         18 |         27 |         10 |         55 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Auth\AccessTokenDTO.cs                                       | C#                 |         14 |          0 |          3 |         17 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Auth\RefreshTokenDTO.cs                                      | C#                 |         16 |          0 |          4 |         20 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Auth\RevokeRefreshTokenDTO.cs                                | C#                 |          7 |          0 |          1 |          8 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Comment\CommentDTO.cs                                        | C#                 |         15 |          0 |          3 |         18 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Comment\EditCommentDTO.cs                                    | C#                 |          6 |          0 |          1 |          7 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Comment\NewCommentDTO.cs                                     | C#                 |          9 |          0 |          1 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Email\SendEmailDTO.cs                                        | C#                 |          2 |          0 |          1 |          3 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Email\SendEmailOptions.cs                                    | C#                 |          7 |          0 |          2 |          9 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Like\NewReactionDTO.cs                                       | C#                 |          9 |          0 |          1 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Like\ReactionDTO.cs                                          | C#                 |         11 |          0 |          2 |         13 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Post\EditPostDTO.cs                                          | C#                 |          7 |          0 |          2 |          9 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Post\GetPostsDto.cs                                          | C#                 |          6 |          0 |          2 |          8 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Post\PostCreateDTO.cs                                        | C#                 |         11 |          0 |          3 |         14 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\Post\PostDTO.cs                                              | C#                 |         18 |          0 |          3 |         21 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\User\AuthUserDTO.cs                                          | C#                 |          9 |          0 |          2 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\User\ForgotPasswordDTO.cs                                    | C#                 |          6 |          0 |          1 |          7 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\User\ResetPasswordDTO.cs                                     | C#                 |          8 |          0 |          2 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\User\UserDTO.cs                                              | C#                 |         10 |          0 |          1 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\User\UserLoginDTO.cs                                         | C#                 |          8 |          0 |          1 |          9 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\DTO\User\UserRegisterDTO.cs                                      | C#                 |          7 |          0 |          1 |          8 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\Logic\Abstractions\IUserIdGetter.cs                              | C#                 |          8 |          7 |          2 |         17 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\Logic\Abstractions\IUserIdSetter.cs                              | C#                 |          7 |          0 |          1 |          8 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\Security\SecurityHelper.cs                                       | C#                 |         42 |          3 |          7 |         52 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\Security\SecurityProvider\DeterministicRandomGenerator.cs        | C#                 |         17 |          0 |          4 |         21 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.Common\Thread.NET.Common.csproj                                         | XML                |         11 |          0 |          4 |         15 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Context\ModelBuilderExtensions.cs                                   | C#                 |        175 |          0 |         44 |        219 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Context\ThreadContext.cs                                            | C#                 |         22 |          3 |          5 |         30 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\Abstract\BaseEntity.cs                                     | C#                 |         20 |          0 |          4 |         24 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\Abstract\Reaction.cs                                       | C#                 |          9 |          0 |          2 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\Comment.cs                                                 | C#                 |         18 |          0 |          6 |         24 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\CommentReaction.cs                                         | C#                 |          9 |          0 |          2 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\Image.cs                                                   | C#                 |          8 |          0 |          2 |         10 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\Post.cs                                                    | C#                 |         20 |          0 |          6 |         26 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\PostReaction.cs                                            | C#                 |          9 |          0 |          2 |         11 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\RefreshToken.cs                                            | C#                 |         18 |          0 |          6 |         24 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Entities\User.cs                                                    | C#                 |         14 |          0 |          3 |         17 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Migrations\20230626224321_Initial.Designer.cs                       | C#                 |      1,488 |          1 |        106 |      1,595 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Migrations\20230626224321_Initial.cs                                | C#                 |        414 |          0 |         31 |        445 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Migrations\20230709124357_AddedSoftDelete.Designer.cs               | C#                 |      1,643 |          1 |        113 |      1,757 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Migrations\20230709124357_AddedSoftDelete.cs                        | C#                 |         77 |          0 |         16 |         93 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Migrations\20230711202558_AddedResetPasswordTokenToUser.Designer.cs | C#                 |      1,645 |          1 |        114 |      1,760 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Migrations\20230711202558_AddedResetPasswordTokenToUser.cs          | C#                 |         22 |          0 |          4 |         26 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Migrations\ThreadContextModelSnapshot.cs                            | C#                 |      1,643 |          1 |        114 |      1,758 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.DAL\Thread.NET.DAL.csproj                                               | XML                |         24 |          0 |          7 |         31 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Controllers\AccountsController.cs                                | C#                 |         28 |          0 |          6 |         34 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Controllers\AuthController.cs                                    | C#                 |         24 |         13 |          3 |         40 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Controllers\CommentsController.cs                                | C#                 |         52 |          3 |          6 |         61 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Controllers\PostsController.cs                                   | C#                 |         62 |         21 |          7 |         90 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Controllers\RegisterController.cs                                | C#                 |         33 |          3 |          5 |         41 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Controllers\TokenController.cs                                   | C#                 |         32 |          6 |          4 |         42 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Controllers\UsersController.cs                                   | C#                 |         52 |         15 |          7 |         74 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Enums\ErrorCode.cs                                               | C#                 |         11 |          0 |          1 |         12 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Extensions\ControllerBaseExtensions.cs                           | C#                 |         18 |          0 |          4 |         22 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Extensions\ExceptionFilterExtensions.cs                          | C#                 |         21 |          0 |          2 |         23 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Extensions\ServiceExtensions.cs                                  | C#                 |        176 |          4 |         27 |        207 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Filters\CustomExceptionFilterAttribute.cs                        | C#                 |         22 |          0 |          2 |         24 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Logic\UserIdStorage.cs                                           | C#                 |         22 |          0 |          6 |         28 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Middlewares\UserIdSaverMiddleware.cs                             | C#                 |         24 |          0 |          6 |         30 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Program.cs                                                       | C#                 |         16 |          0 |          3 |         19 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Properties\launchSettings.json                                   | JSON               |         22 |          0 |          0 |         22 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Startup.cs                                                       | C#                 |         85 |          3 |         18 |        106 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Thread.NET.WebAPI.csproj                                         | XML                |         32 |          0 |          6 |         38 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Validators\RefreshTokenDTOValidator.cs                           | C#                 |         17 |          0 |          3 |         20 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Validators\RevokeRefreshTokenDTOValidator.cs                     | C#                 |         14 |          0 |          2 |         16 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Validators\SendEmailDTOValidator.cs                              | C#                 |         23 |          0 |          5 |         28 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Validators\UserDTOValidator.cs                                   | C#                 |         21 |          0 |          4 |         25 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\Validators\UserLoginDTOValidator.cs                              | C#                 |         13 |          0 |          2 |         15 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\appsettings.Development.json                                     | JSON               |         14 |          0 |          1 |         15 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\appsettings.json                                                 | JSON               |         15 |          0 |          0 |         15 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\migrate_db.cmd                                                   | Batch              |         20 |          0 |         12 |         32 |
+| d:\диплом\treadnetattemp2\backend\Thread.NET.WebAPI\migrate_db.sh                                                    | Shell Script       |          9 |          0 |          6 |         15 |
+| d:\диплом\treadnetattemp2\docker-compose.apps.yml                                                                    | YAML               |         35 |          0 |          2 |         37 |
+| d:\диплом\treadnetattemp2\docker-compose.services.yml                                                                | YAML               |         15 |          0 |          2 |         17 |
+| d:\диплом\treadnetattemp2\frontend\README.md                                                                         | Markdown           |         14 |          0 |         14 |         28 |
+| d:\диплом\treadnetattemp2\frontend\angular.json                                                                      | JSON               |         97 |          0 |          0 |         97 |
+| d:\диплом\treadnetattemp2\frontend\nginx.dev.conf                                                                    | Properties         |         30 |          0 |          9 |         39 |
+| d:\диплом\treadnetattemp2\frontend\package-lock.json                                                                 | JSON               |     20,107 |          0 |          1 |     20,108 |
+| d:\диплом\treadnetattemp2\frontend\package.json                                                                      | JSON               |         44 |          0 |          1 |         45 |
+| d:\диплом\treadnetattemp2\frontend\src\app\app.component.html                                                        | HTML               |          1 |          0 |          1 |          2 |
+| d:\диплом\treadnetattemp2\frontend\src\app\app.component.ts                                                          | TypeScript         |          9 |          0 |          2 |         11 |
+| d:\диплом\treadnetattemp2\frontend\src\app\app.module.ts                                                             | TypeScript         |         51 |          0 |          1 |         52 |
+| d:\диплом\treadnetattemp2\frontend\src\app\app.routes.ts                                                             | TypeScript         |         12 |          0 |          2 |         14 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\auth-dialog\auth-dialog.component.html                         | HTML               |         22 |          0 |          2 |         24 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\auth-dialog\auth-dialog.component.ts                           | TypeScript         |         83 |          0 |         15 |         98 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\comment\comment.component.html                                 | HTML               |         39 |          0 |          1 |         40 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\comment\comment.component.ts                                   | TypeScript         |         72 |          0 |         12 |         84 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\common\material-components.module.ts                           | TypeScript         |        101 |          0 |          3 |        104 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\home\home.component.html                                       | HTML               |         26 |          0 |          1 |         27 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\home\home.component.ts                                         | TypeScript         |         54 |          0 |         12 |         66 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\main-thread\main-thread.component.html                         | HTML               |         50 |          0 |          4 |         54 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\main-thread\main-thread.component.ts                           | TypeScript         |        218 |          0 |         33 |        251 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\post\post.component.html                                       | HTML               |         80 |          0 |          8 |         88 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\post\post.component.ts                                         | TypeScript         |        184 |          0 |         28 |        212 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\reactions-info\reactions-info.component.css                    | CSS                |          3 |          0 |          0 |          3 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\reactions-info\reactions-info.component.html                   | HTML               |         17 |          0 |          2 |         19 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\reactions-info\reactions-info.component.ts                     | TypeScript         |         14 |          0 |          4 |         18 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\reset-password\reset-password.component.css                    | CSS                |         25 |          0 |          2 |         27 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\reset-password\reset-password.component.html                   | HTML               |         13 |          0 |          0 |         13 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\reset-password\reset-password.component.ts                     | TypeScript         |         49 |          0 |          6 |         55 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\user-profile\user-profile.component.html                       | HTML               |         28 |          0 |          2 |         30 |
+| d:\диплом\treadnetattemp2\frontend\src\app\components\user-profile\user-profile.component.ts                         | TypeScript         |         72 |          0 |         14 |         86 |
+| d:\диплом\treadnetattemp2\frontend\src\app\guards\auth.guard.ts                                                      | TypeScript         |         20 |          0 |          7 |         27 |
+| d:\диплом\treadnetattemp2\frontend\src\app\helpers\error.interceptor.ts                                              | TypeScript         |         46 |          0 |          7 |         53 |
+| d:\диплом\treadnetattemp2\frontend\src\app\helpers\jwt.interceptor.ts                                                | TypeScript         |         14 |          0 |          3 |         17 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\auth\auth-user.ts                                                  | TypeScript         |          6 |          0 |          2 |          8 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\auth\forgot-password.ts                                            | TypeScript         |          4 |          0 |          1 |          5 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\auth\reset-password.ts                                             | TypeScript         |          6 |          0 |          2 |          8 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\auth\user-login-dto.ts                                             | TypeScript         |          4 |          0 |          1 |          5 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\auth\user-register-dto.ts                                          | TypeScript         |          6 |          0 |          1 |          7 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\comment\comment.ts                                                 | TypeScript         |          9 |          0 |          2 |         11 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\comment\edit-comment.ts                                            | TypeScript         |          4 |          0 |          1 |          5 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\comment\new-comment.ts                                             | TypeScript         |          5 |          0 |          1 |          6 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\common\auth-dialog-type.ts                                         | TypeScript         |          5 |          0 |          1 |          6 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\common\error-code.ts                                               | TypeScript         |          7 |          0 |          1 |          8 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\gyazo.ts                                                           | TypeScript         |          7 |          0 |          1 |          8 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\image.ts                                                           | TypeScript         |          3 |          0 |          1 |          4 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\post\edit-post.ts                                                  | TypeScript         |          5 |          0 |          1 |          6 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\post\new-post.ts                                                   | TypeScript         |          5 |          0 |          1 |          6 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\post\post.ts                                                       | TypeScript         |         12 |          0 |          2 |         14 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\reactions\newReaction.ts                                           | TypeScript         |          5 |          0 |          1 |          6 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\reactions\reaction.ts                                              | TypeScript         |          6 |          0 |          2 |          8 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\token\access-token-dto.ts                                          | TypeScript         |          5 |          0 |          2 |          7 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\token\access-token.ts                                              | TypeScript         |          4 |          0 |          1 |          5 |
+| d:\диплом\treadnetattemp2\frontend\src\app\models\user.ts                                                            | TypeScript         |          6 |          0 |          1 |          7 |
+| d:\диплом\treadnetattemp2\frontend\src\app\pipes\time-ago.pipe.ts                                                    | TypeScript         |         33 |          0 |         10 |         43 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\auth-dialog.service.ts                                           | TypeScript         |         36 |          0 |          6 |         42 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\auth.service.ts                                                  | TypeScript         |         95 |          0 |         16 |        111 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\comment.service.ts                                               | TypeScript         |         19 |          0 |          6 |         25 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\event.service.ts                                                 | TypeScript         |         11 |          1 |          4 |         16 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\gyazo.service.ts                                                 | TypeScript         |         19 |          0 |          6 |         25 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\http-internal.service.ts                                         | TypeScript         |         58 |          0 |         18 |         76 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\like.service.ts                                                  | TypeScript         |         17 |          0 |          4 |         21 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\post.service.ts                                                  | TypeScript         |         30 |          0 |          9 |         39 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\reaction.service.ts                                              | TypeScript         |         45 |          0 |         11 |         56 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\snack-bar.service.ts                                             | TypeScript         |         12 |          0 |          4 |         16 |
+| d:\диплом\treadnetattemp2\frontend\src\app\services\user.service.ts                                                  | TypeScript         |         25 |          0 |          7 |         32 |
+| d:\диплом\treadnetattemp2\frontend\src\environments\environment.prod.ts                                              | TypeScript         |          5 |          0 |          1 |          6 |
+| d:\диплом\treadnetattemp2\frontend\src\environments\environment.ts                                                   | TypeScript         |          5 |         10 |          3 |         18 |
+| d:\диплом\treadnetattemp2\frontend\src\index.html                                                                    | HTML               |         15 |          0 |          5 |         20 |
+| d:\диплом\treadnetattemp2\frontend\src\main.ts                                                                       | TypeScript         |          9 |          0 |          4 |         13 |
+| d:\диплом\treadnetattemp2\frontend\src\polyfills.ts                                                                  | TypeScript         |          1 |         24 |         11 |         36 |
+| d:\диплом\treadnetattemp2\frontend\src\tsconfig.app.json                                                             | JSON               |         14 |          0 |          1 |         15 |
+| d:\диплом\treadnetattemp2\frontend\src\tsconfig.spec.json                                                            | JSON               |         18 |          0 |          1 |         19 |
+| d:\диплом\treadnetattemp2\frontend\src\tslint.json                                                                   | JSON               |         75 |          0 |          2 |         77 |
+| d:\диплом\treadnetattemp2\frontend\tsconfig.json                                                                     | JSON with Comments |         29 |          0 |          1 |         30 |
+| d:\диплом\treadnetattemp2\frontend\tslint.json                                                                       | JSON               |        129 |          0 |          1 |        130 |
+| Total                                                                                                                |                    |     31,972 |        157 |      1,390 |     33,519 |
++----------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

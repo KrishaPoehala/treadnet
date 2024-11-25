@@ -1,0 +1,39 @@
+<mat-card>
+  <mat-card-header>
+    <img mat-card-avatar src="{{comment.author.avatar}}" alt="Avatar">
+    <mat-card-title>{{comment.author.userName}} </mat-card-title>
+    <div>{{comment.createdAt | date:'d/M/yy, h:mm a'}}</div>
+    <button *ngIf="currentUser?.id === comment.author.id" mat-button mat-icon-button [matMenuTriggerFor]="menu">
+      <mat-icon>more_vert</mat-icon>
+    </button>
+    <mat-menu #menu="matMenu" >
+      <button mat-menu-item (click)="onReactionsInfoDialogOpen()" >See likes/dislikes</button>
+    </mat-menu>
+  </mat-card-header>
+  <mat-card-content>
+    <p *ngIf="!isEditingMode">{{comment.body}}</p>
+    <input class="input-field" type="text" [value]="comment.body" 
+    *ngIf="isEditingMode" [(ngModel)]="comment.body" (keyUp.Enter)="editComment()"/>
+  </mat-card-content>
+  <mat-card-actions class="actions-buttons" align="end">
+    <button mat-icon-button color="accent">
+      <mat-icon aria-label="Share">share</mat-icon>
+    </button>
+    <button mat-icon-button (click)="editCommentToggle()">
+      <mat-icon>edit</mat-icon>
+    </button>
+    <button mat-icon-button (click)="deleteCommentEmmiter.emit(comment.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+    <button [disabled]="!currentUser" mat-icon-button color="primary" (click)="addReaction(true)">
+      <mat-icon
+        matBadge="{{positiveReactions.length}}" matBadgeColor="accent" matBadgeSize="small"
+        [matBadgeHidden]="positiveReactions.length === 0" aria-label="Like">thumb_up</mat-icon>
+    </button>
+    <button [disabled]="!currentUser" mat-icon-button color="primary" (click)="addReaction(false)">
+      <mat-icon
+        matBadge="{{negativeReactions.length}}" matBadgeColor="accent" matBadgeSize="small"
+        [matBadgeHidden]="negativeReactions.length === 0" aria-label="Like">thumb_down</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>
